@@ -47,3 +47,4 @@ public class Main {
     //TODO make calculateAndGiveOutput
         //make the four functions
     //TODO Yuri organize code
+

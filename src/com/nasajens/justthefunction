@@ -1,0 +1,33 @@
+
+inputContainsCorrectSet(Input input, Set set) {
+    // first read the input!
+
+    //TODO Read input into set!
+
+    //The function size() returns the amount of elements/identifiers in the set. A set may contain a minimum of 0 and a
+    //maximum of 20 identifiers:
+
+    if (size() < 0 or size() > 10) {    //de check voor groter dan 10 hoeft eigenlijk niet dat doet de functie size() al uit zichzelf
+        return false; //because input does not contain correct set.
+    }
+
+    //let iterator go over every element and perform the three checks on every element:
+
+    while (int i < set.size()){
+
+        str elementvar = set.iterator(); //this makes elementvar the ith elementh of the set.
+
+        //We can also use toArray, to turn the set into an array!!
+
+        //Check if every element only contains alphanumeric characters.
+        //TODO ^
+
+        //Check if every element begins with a letter.
+        //TODO ^
+
+        //Check if every element has a length of at least 1 character.
+        //TODO ^
+
+        i++;
+    }
+  }
